@@ -1,4 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+
+/*
+    COLORS (from Ozil picture)
+    73272D: Red
+    571D25: Darker Red
+    DADADA: White
+    A2A4A5: Light Gray
+    0D0D10: Black
+*/
+
 
 /* Whole Page */
 
@@ -35,7 +47,7 @@ body {
 /* Red & White Fonts */
 
 body {
-    background-color: #fff;
+    background-color: #DADADA;
     color: #1110;
 }
 
@@ -82,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #banner {
     top: -25px;
-    padding: 13em 0 15em 0;
+    padding: 13em 0 18em 0;
     background-color: #0c0c0c;
     background-image: url("../img/banner1.jpg");
     background-size: cover;
@@ -94,11 +106,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #banner input, #banner select, #banner textarea, #banner a, #banner strong, #banner b {
-    color: #ffffff;
+    color: #DADADA;
 }
 
 #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-    color: #ffffff;
+    color: #DADADA;
 }
 
 #banner input[type="submit"],
@@ -108,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 #banner .button {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px #fff;
-    color: #ffffff !important;
+    color: #DADADA !important;
 
 }
 
@@ -139,7 +151,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #banner h1 {
-    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
     margin: 0 0 1em 0;
     padding: 0;
     letter-spacing: 3px;
@@ -170,7 +183,8 @@ button,
     border: 0;
     cursor: pointer;
     display: inline-block;
-    font-size: .8em;
+    font-family: "Montserrat", sans-serif;
+    font-size: .9em;
     font-weight: 700;
     height: 3.5em;
     line-height: 3.65em;
