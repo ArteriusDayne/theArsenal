@@ -33,7 +33,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
     -ms-overflow-style: scrollbar;
-        background: #fff;
+    background: #fff;
 }
 
 @media screen and (max-width: 480px) {
@@ -82,12 +82,17 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.button a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     color: #e5474b;
+}
+
+h2 {
+    color: #0D0D10;
+    text-align: center;
 }
 
 /* Banner */
@@ -95,6 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 #banner {
     top: -25px;
     padding: 13em 0 18em 0;
+    height: 75vh;
     background-color: #0c0c0c;
     background-image: url("../img/banner1.jpg");
     background-size: cover;

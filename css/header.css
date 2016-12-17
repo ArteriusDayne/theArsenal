@@ -59,9 +59,6 @@ body {
 }
 
 #header a {
-    -moz-transition: color 0.2s ease-in-out;
-    -webkit-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
     display: inline-block;
     padding: 0 2em;
