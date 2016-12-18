@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>The Arsenal</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <link rel="stylesheet" href="css/standardize.min.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/contact.css" />
+    </head>
+    <body background="img/stadium.jpg"> 
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <a href="index.html" class="logo">The Arsenal</a>
+                <nav id="nav">
+                    <a href="index.html">Home</a>
+                    <a href="articles/articles.html">Articles</a>
+                    <a href="chants/chants.html">Chants</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        
+        <br>
+        <h1 class="title"> Contact Us </h1>
+        <form action="#" method="post"  autocomplete="on" id="frmContact">
+            <div class="input-prepend">
+                <label for="frmName"><span class="add-on validLabel fontawesome-user" name="name"></span></label>
+                <input id="frmName" type="text" name="frmName" placeholder="Name"  title="Please provide your name." />							
+            </div>
+
+            <div class="input-prepend">
+                <label for="frmEmail"><span class="add-on validLabel fontawesome-envelope"></span></label>
+                <input type="text" id="frmEmail" name="frmEmail" placeholder="Email Address" title="Please provide a valid email address." />
+            </div>
+            <div class="input-prepend">
+                <label for="frmPhone"><span class="add-on validLabel fontawesome-phone"></span></label>
+                <input type="text" name="frmPhone" id="frmPhone" placeholder="Phone Number" title="Please provide a valid phone number." />
+            </div>
+            <div class="input-prepend">
+                <label for="frmSubject"><span class="add-on validLabel fontawesome-tag"></span></label>
+                <input type="text" id="frmSubject" name="frmSubject" placeholder="Subject" />
+            </div>
+            <div class="input-prepend">
+                <label for="frmMessage"><span class="add-on validLabel fontawesome-comment"></span></label>
+                <textarea placeholder="Questions, Concerns, and Feedback are very much appreciated." id="frmMessage" name="frmMessage" title="Please provide questions/comments."></textarea>
+            </div>
+            <input id="contactSubmit" type="button" value="Send" onclick="location.href='index.html';"/>		
+
+        </form>
+
+    </body>
+
+</html>
