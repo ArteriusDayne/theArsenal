@@ -1,3 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+blockquote {
+    text-align: center;
+    font-family: "Montserrat", serif;
+}
+
 h1 {
+    font-family: "Montserrat", sans-serif;
     color: #e5474b;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-family: "Montserrat", serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #666;
+    text-align: center;
+}
+
+.content {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.col {
+    padding: 50px;
+}
+
+.fluid-flex {
+    -webkit-flex: 1;
+    flex: 1; /* Not supported by Safari */
 }
