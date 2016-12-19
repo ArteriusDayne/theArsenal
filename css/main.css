@@ -200,3 +200,8 @@ button,
     text-transform: uppercase;
     white-space: nowrap;
 }
+
+p {
+    font-weight: 300;
+    line-height: 2;
+}
