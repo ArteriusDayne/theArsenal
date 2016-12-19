@@ -72,16 +72,6 @@ form
     border-left: none;
 }
 
-.errorLabel
-{
-    background-color: #ff8888 !important;
-}
-
-.validLabel
-{
-    background-color: #EEEEEE !important;
-}
-
 .indication
 {
     margin: 0;
